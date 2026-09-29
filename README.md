@@ -1,26 +1,25 @@
-# Elite Auto Polish
+# AURA — центр премиального детейлинга
 
-создай сайт детейлинг центра премиум класса
+Сайт детейлинг-центра премиум-класса: керамика, полировка кузова, реставрация
+салона. Одностраничное приложение с формой записи.
 
-This project was built with [Lovable](https://lovable.dev).
+## Стек
 
-**Live app**: https://luxury-paint-care.lovable.app
+- TanStack Start + React 19 (SSR)
+- Tailwind CSS 4
+- Vite 8, TypeScript
 
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/1dc627f8-4679-4758-8ef3-8e6274c50349).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## Разработка
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
 npm i
 npm run dev
 ```
+
+## Сборка
+
+```sh
+npm run build
+```
+
+Деплой — автоматический с ветки `main` на Vercel.
